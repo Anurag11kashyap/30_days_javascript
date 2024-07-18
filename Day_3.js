@@ -13,6 +13,7 @@ else
   let age=35;
   age>=18 ? console.log("eligible to vote") : console.log("not eligible to vote");
 
+  
  //Activity
  let num=78;
  var num1=97;
