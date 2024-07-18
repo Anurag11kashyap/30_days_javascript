@@ -11,10 +11,7 @@ else
 
 //task 2
   let age=35;
-  if(age>=18)
-    console.log("eligible to vote");
- else 
- console.log("not eligible to vote");
+  age>=18 ? console.log("eligible to vote") : console.log("not eligible to vote");
 
  //Activity
  let num=78;
@@ -29,6 +26,7 @@ console.log("num2 is greatest among the three numbers");
 
 
 //Activity 3 switch case
+
 
 let weekdays = 7;
 switch(weekdays){
