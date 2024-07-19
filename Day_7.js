@@ -28,7 +28,7 @@ let book2={
         function Details(){ 
     return book1.title + " by " +  book1.author
     }
- console.log(Details(book1))
+ console.log(Details(book2))
 
 //2-
 let book3={
@@ -39,9 +39,9 @@ let book3={
     
              function year(){ 
                year=2020
-            return year
+           return year
          }
-      console.log(year(book1))
+      console.log(year(book3))
 
 //Activity 3-
 //1-
@@ -93,7 +93,7 @@ let book4={
      return this.name + " and " + "year" + this.year
  }
 }
- console.log(book.Add())
+ console.log(book4.Add())
 
 //Activity 5
 //1-
