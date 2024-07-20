@@ -3,7 +3,7 @@
 let name="Rohan"
 let age=20
 
-let str=`Hello, my name is .name, and I am .age year old`
+let str=`Hello, my name is ${name} and I am ${age} year old`
 console.log(str)
 
 //2-
